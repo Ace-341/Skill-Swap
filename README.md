@@ -75,45 +75,45 @@ The SkillSwap platform was built with the following guiding principles:
 
 ---
 
-## 📁 Project Structure
-
+```
 SkillSwap/
-├── client/ # Frontend (React)
-│ ├── src/
-│ │ ├── components/ # Reusable UI components (NavBar, SkillCard, etc.)
-│ │ ├── pages/ # Page components (Home, Profile, Search, Login)
-│ │ ├── hooks/ # Custom React hooks (useAuth, useSwap, etc.)
-│ │ ├── lib/ # Utilities (api client, constants)
-│ │ ├── App.tsx # App root
-│ │ └── main.tsx # ReactDOM entry
-│ └── index.html
+├── client/                     # Frontend (React)
+│   ├── src/
+│   │   ├── components/         # Reusable UI components (NavBar, SkillCard, etc.)
+│   │   ├── pages/              # Page components (Home, Profile, Search, Login)
+│   │   ├── hooks/              # Custom React hooks (useAuth, useSwap, etc.)
+│   │   ├── lib/                # Utilities (api client, constants)
+│   │   ├── App.tsx             # App root
+│   │   └── main.tsx            # ReactDOM entry
+│   └── index.html
 │
-├── server/ # Backend (Express + Node.js)
-│ ├── routes/
-│ │ ├── auth.ts # Login/Register routes
-│ │ ├── users.ts # User/profile routes
-│ │ ├── swaps.ts # Skill swap request routes
-│ │ ├── feedback.ts # Feedback system
-│ │ └── admin.ts # Admin functionalities
-│ ├── middleware/
-│ │ ├── auth.ts # JWT middleware
-│ │ └── errorHandler.ts # Centralized error handling
-│ ├── db.ts # DB connection config (Neon/PostgreSQL)
-│ ├── storage.ts # In-memory/session storage setup
-│ └── index.ts # Express app entry point
+├── server/                     # Backend (Express + Node.js)
+│   ├── routes/
+│   │   ├── auth.ts             # Login/Register routes
+│   │   ├── users.ts            # User/profile routes
+│   │   ├── swaps.ts            # Skill swap request routes
+│   │   ├── feedback.ts         # Feedback system
+│   │   └── admin.ts            # Admin functionalities
+│   ├── middleware/
+│   │   ├── auth.ts             # JWT middleware
+│   │   └── errorHandler.ts     # Centralized error handling
+│   ├── db.ts                   # DB connection config (Neon/PostgreSQL)
+│   ├── storage.ts              # In-memory/session storage setup
+│   └── index.ts                # Express app entry point
 │
-├── shared/ # Shared types and schema
-│ ├── schema.ts # Drizzle schema definitions
-│ ├── types.ts # Shared TS interfaces for User, Skill, Swap
-│ └── constants.ts # Shared enums/constants
+├── shared/                     # Shared types and schema
+│   ├── schema.ts               # Drizzle schema definitions
+│   ├── types.ts                # Shared TS interfaces for User, Skill, Swap
+│   └── constants.ts            # Shared enums/constants
 │
-├── public/ # Public assets (favicons, images)
-├── drizzle.config.ts # Drizzle ORM configuration
-├── vite.config.ts # Vite frontend config
-├── tsconfig.json # Shared TS config
-├── .env # Environment variables
-├── package.json # Monorepo scripts and deps
-└── README.md # You're here!
+├── public/                     # Public assets (favicons, images)
+├── drizzle.config.ts           # Drizzle ORM configuration
+├── vite.config.ts              # Vite frontend config
+├── tsconfig.json               # Shared TS config
+├── .env                        # Environment variables
+├── package.json                # Monorepo scripts and deps
+└── README.md                   # You're here!
+```
 
 
 ---
