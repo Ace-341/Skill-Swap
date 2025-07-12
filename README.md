@@ -117,3 +117,6 @@ SkillSwap/
 
 
 ---
+These are the login credentials for admin:
+Email:    odoo-hackathon@gmail.com  
+Password: odoo-hackathon
